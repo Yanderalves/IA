@@ -1,5 +1,3 @@
-# main.py
-
 import matplotlib.pyplot as plt
 import random
 from moves_cube import *
