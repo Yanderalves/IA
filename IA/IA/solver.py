@@ -43,7 +43,7 @@ class IterativeDeepeningSearch:
     def solve(self):
         max_depth_limit = 10
         for depth in range(max_depth_limit):
-            print(f"Buscando com rofundidade máxima: {depth}")
+            print(f"Buscando com profundidade máxima: {depth}")
             visited_in_path = {str(self.initial_cube)}
             result = self._dls(self.initial_cube, depth, [], visited_in_path)
             if result is not None:
